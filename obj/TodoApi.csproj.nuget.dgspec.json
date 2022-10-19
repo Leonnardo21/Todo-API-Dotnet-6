@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leoso\\source\\repos\\Balta.io\\Dotnet6\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\leoso\\Documents\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leoso\\source\\repos\\Balta.io\\Dotnet6\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\leoso\\Documents\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leoso\\source\\repos\\Balta.io\\Dotnet6\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\leoso\\Documents\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\leoso\\source\\repos\\Balta.io\\Dotnet6\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\leoso\\Documents\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\leoso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leoso\\source\\repos\\Balta.io\\Dotnet6\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\leoso\\Documents\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,6 +44,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
